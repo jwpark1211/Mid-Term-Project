@@ -7,12 +7,11 @@
             .parent {
                 display: flex;
             }
-            .child1 {
-                flex: 0.45;
-            }
-            .child2{
-                flex: 0.55;
-            }
+            .child1{ flex:0.45; }
+            .child2{ flex:0.55; }
+            .child3{ flex:0.25; }
+            .child4{ flex:0.35; }
+            .child5{ flex:0.4; }
             @font-face {
             font-family: 'Cafe24Ohsquareair';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
@@ -24,11 +23,11 @@
     <body bgcolor="black">
         <!-- title 화면 -->
         <div class="parent" style="width:100%; height: 810px;">
-            <div class="child1" style="width:45%">
+            <div class="child1" >
                 <img src="./images/titleImg.png" alt="titleImg" width="555.2px" height="708" 
                 style="margin-left: 50px; margin-top: 50px;" >
             </div>
-            <div class="child2" style="width:55%">
+            <div class="child2">
                 <p style="font-family:Cafe24Ohsquareair;color: #39FFE7; font-size:70px">
                     ABOUT ME<br>[ 박정운 ] 을 소개합니다.</p>
                 <br><br><br><br><br><br><br><br>
@@ -39,9 +38,29 @@
             </div>
         </div>
 
-        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
         <!--Introduction 화면-->
         <img src="./images/line_middle.png" width="1500px" alt="middleline">
-        
+        <br><br><br><br><br><br>
+        <div class="parent" style="width:100%; height: 600px; 
+        border-top: 2.5px solid #39FFE7; border-bottom: 2.5px solid #39FFE7;">
+            <div class="child3" style="border-right:2.5px solid #39FFE7;">
+            </div>
+            <div class="child4" style="border-right:2.5px solid #39FFE7;">
+            </div>
+            <div class="child5">
+                <div class="child" style="width: 600px; height: 200px; border-bottom:2.5px solid #39FFE7;">
+
+                </div>
+                <div class="child" style="width: 600px; height: 200px; border-bottom:2.5px solid #39FFE7;">
+                
+                </div>
+                <div class="child" style="width: 600px; height: 200px;">
+                
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <img src="./images/line_middle.png" width="1500px" alt="middleline">
     </body>
 </html>
