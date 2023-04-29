@@ -4,20 +4,14 @@
         <meta charset="UTF-8">
         <title>2023 3-1 OpenSource Midterm</title>
         <style>
-            div {
-                width: 100%;
-                height: 810px;
-                border: 1px solid black;
+            .parent {
+                display: flex;
             }
-            div.left {
-                width: 45%;
-                float: left;
-                box-sizing: border-box;
+            .child1 {
+                flex: 0.45;
             }
-            div.right {
-                width: 55%;
-                float: right;
-                box-sizing: border-box;
+            .child2{
+                flex: 0.55;
             }
             @font-face {
             font-family: 'Cafe24Ohsquareair';
@@ -29,12 +23,12 @@
     </head>
     <body bgcolor="black">
         <!-- title 화면 -->
-        <div>
-            <div class="left">
+        <div class="parent" style="width:100%; height: 810px;">
+            <div class="child1" style="width:45%">
                 <img src="./images/titleImg.png" alt="titleImg" width="555.2px" height="708" 
                 style="margin-left: 50px; margin-top: 50px;" >
             </div>
-            <div class="right">
+            <div class="child2" style="width:55%">
                 <p style="font-family:Cafe24Ohsquareair;color: #39FFE7; font-size:70px">
                     ABOUT ME<br>[ 박정운 ] 을 소개합니다.</p>
                 <br><br><br><br><br><br><br><br>
@@ -48,5 +42,6 @@
         <br><br><br><br><br><br><br><br><br>
         <!--Introduction 화면-->
         <img src="./images/line_middle.png" width="1500px" alt="middleline">
+        
     </body>
 </html>
